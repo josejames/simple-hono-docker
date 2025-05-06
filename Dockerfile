@@ -18,3 +18,4 @@ CMD ["npm", "run", "dev"]
 # docker run -d -p 3000:3000 --name my-docker-app my-docker-app
 # docker ps
 # docker stop my-docker-app
+# docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d -p 33060:3306 mysql
